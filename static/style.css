@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#navBar{
+    background-color: black;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 6px 4px;
+    padding: 12px 20px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+a:hover{
+    background-color: blanchedalmond;
+    color: rgb(197, 120, 4);
+    border-radius: 8px;
+}
+#logo img{
+    height: 100px;
+    filter: invert(1);
+}
+#introSection{
+    height: 350px;
+    width: 100%;
+    color: #85f3da;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    text-align: center;
+}
+.large{
+    font-size: 3rem;
+}
+.small{
+    font-size: 2.5rem;
+}
+#introSection::before{
+    content: "";
+    background: url(/static/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+    height: 350px;
+    width: 100%;
+}
+#ourMission{
+    height: 275px;
+    background-color: white;
+}
+#ourMission div.cards{
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
+    height: 228px;
+}
+#ourMission div.box{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 170px;
+    width: 250px;
+    margin: 0px 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#ourMission h2{
+    text-align: center;
+    font-family:cursive;
+    font-size: 2rem;
+}
+div.pic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic img{
+    height: 138px;
+    width: 75px;
+}
+.pic p{
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: pink;
+}
+#sponsorsSection h2{
+    text-align: center;
+    font-family:cursive;
+    font-size: 2rem;
+}
+div#class{
+    display: flex;
+    align-items: center;
+    height: 255px;
+    justify-content: space-around;
+}
+div.item img{
+    height: 200px;
+    width: 250px;
+}
+#footer{
+    background-color: black;
+    height: 45px;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+}
